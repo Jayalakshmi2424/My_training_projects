@@ -1,0 +1,16 @@
+
+'''    2. Define a class which has at least two methods:
+getString: to get a string from console input
+printString: to print the string in upper case.'''
+class A():
+    def __init__(self):
+        self.str=""
+    def getString(self):
+        self.str=input("Enter a string  ")
+    def printString(self):
+        print(self.str.upper())
+
+
+my_inst = A()
+my_inst.getString()
+my_inst.printString()
